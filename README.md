@@ -12,7 +12,7 @@ First, to get the basic graphics going I discovered the wonders of Moononournati
 https://github.com/moononournation/Arduino_GFX
 Waveshare have thoughtfully given the GPIO pin mapping for their panel, so I put them into the panel constructors -
 
-#define GFX_DEV_DEVICE WAVESHARE_ESP32_S3_TFT_4_3
+`#define GFX_DEV_DEVICE WAVESHARE_ESP32_S3_TFT_4_3
 //define GFX_BL 2
 
 Arduino_ESP32RGBPanel *rgbpanel = new Arduino_ESP32RGBPanel(
@@ -48,5 +48,5 @@ Arduino_RGB_Display *gfx = new Arduino_RGB_Display(
     0 /* rotation */, 
     true /* auto_flush */
 );
-
+`
 Much to my surprise the example code ran!
