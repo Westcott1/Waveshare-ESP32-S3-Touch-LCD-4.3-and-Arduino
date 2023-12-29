@@ -3,7 +3,9 @@
 https://www.waveshare.com/wiki/ESP32-S3-Touch-LCD-4.3#Demo
 
 I got one of these recently, but could find no sample Arduino code in the Waveshare Wiki.
+
 This repository will hopefully grow as I find out how to use all of the board's features.
+
 Also hopefully, it will prove useful to anyone else with this board.
 
 Despite much Googling, no examples turned up, so I'm having to start nearly from scratch.
@@ -52,6 +54,9 @@ Arduino_RGB_Display *gfx = new Arduino_RGB_Display(
 Much to my surprise the example code ran!
 
 I'm now trying to the the touch to work using the CST816S library.
+
 SDA=8, SCL=9, IRQ=4
+
 However, touch RST is expansion pin 1, I've not got the expansion pins to work yet.
+
 They also say you can use one of the expansion pins as Backlight control.
