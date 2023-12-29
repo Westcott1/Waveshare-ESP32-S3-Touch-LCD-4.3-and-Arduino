@@ -50,3 +50,8 @@ Arduino_RGB_Display *gfx = new Arduino_RGB_Display(
 );
 ```
 Much to my surprise the example code ran!
+
+I'm now trying to the the touch to work using the CST816S library.
+SDA=8, SCL=9, IRQ=4
+However, touch RST is expansion pin 1, I've not got the expansion pins to work yet.
+They also say you can use one of the expansion pins as Backlight control.
