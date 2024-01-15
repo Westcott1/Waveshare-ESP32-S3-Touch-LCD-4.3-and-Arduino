@@ -1,8 +1,9 @@
 ### Waveshare ESP32-S3-Touch-LCD-4.3 using the Arduino IDE
 
-https://www.waveshare.com/wiki/ESP32-S3-Touch-LCD-4.3#Demo
+https://www.waveshare.com/wiki/ESP32-S3-Touch-LCD-4.3
 
-I got one of these recently, but could find no sample Arduino code in the Waveshare Wiki.
+The demo software download contains an Arduino branch with code for each of the examples. The most useful is lvg_porting.
+https://www.waveshare.com/wiki/ESP32-S3-Touch-LCD-4.3#Demo
 
 This repository will hopefully grow as I find out how to use all of the board's features.
 
@@ -12,6 +13,7 @@ Despite much Googling, no examples turned up, so I'm having to start nearly from
 
 First, to get the basic graphics going I discovered the wonders of Moononournation's Arduino_GFX library.
 https://github.com/moononournation/Arduino_GFX
+
 Waveshare have thoughtfully given the GPIO pin mapping for their panel, so I put them into the panel constructors -
 ```
 #define GFX_DEV_DEVICE WAVESHARE_ESP32_S3_TFT_4_3
@@ -61,7 +63,6 @@ Touch is controlled by a GT911, and works well with the bb_captouch library.
 
 SDA=8, SCL=9, IRQ=4
 
-However, touch RST is expansion pin 1, I've not got the expansion pins to work yet.
-Fortunately it doesn't seem to need this pin.
-
-They also say you can use one of the expansion pins as Backlight control.
+The expansion pin chip can be accessed with ESP_IOExpander_Library.h.
+Part of the  s3-4.3-libraries download from the Wageshare wiki page
+https://files.waveshare.com/wiki/ESP32-S3-Touch-LCD-4.3/Esp32-s3-touch-lcd-lib.zip 
