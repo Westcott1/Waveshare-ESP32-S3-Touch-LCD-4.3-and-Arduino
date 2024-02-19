@@ -1,5 +1,11 @@
 ### Waveshare ESP32-S3-Touch-LCD-4.3 using the Arduino IDE
 
+Thanks to VollWombat for all his help.
+
+NEW - I've added an example using Arduino_GFX.
+
+TODO - Add an example using Arduino_GFX and LVGL.
+
 https://www.waveshare.com/wiki/ESP32-S3-Touch-LCD-4.3
 
 The demo software download contains an Arduino branch with code for each of the examples. The most useful is lvg_porting.
