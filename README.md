@@ -2,7 +2,13 @@
 
 https://www.waveshare.com/wiki/ESP32-S3-Touch-LCD-4.3
 
-The demo software download contains an Arduino branch with code for each of the examples. The most useful is lvg_porting.
+NEW - I've added an example using Arduino_GFX.
+
+TODO - Add an example using Arduino_GFX and LVGL.
+
+Thanks to VollWombat for all his help.
+
+The WaveShare demo software download contains an Arduino branch with code for each of the examples. The most useful is lvg_porting.
 https://www.waveshare.com/wiki/ESP32-S3-Touch-LCD-4.3#Demo
 
 This repository will hopefully grow as I find out how to use all of the board's features.
