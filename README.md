@@ -4,8 +4,9 @@ https://www.waveshare.com/wiki/ESP32-S3-Touch-LCD-4.3
 
 BEWARE - These examples use LVGL v8.x and Arduino esp32 v2.x.
 Neither LVGL v9.x nor Arduino esp32 v3.x will work (yet).
-However I'm swithhing to Lovyan GFX which does work for Arduino v3.
+However I'm switching to Lovyan_GFX (from TFT_eSPI)  which does work for Arduino v3.
 Next I'll switch to LVGL v9
+New examples will be posted soon.
 
 NEW - I've added an example using Arduino_GFX on ots own, and another plus LVGL.
 
