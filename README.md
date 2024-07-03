@@ -2,14 +2,18 @@
 
 https://www.waveshare.com/wiki/ESP32-S3-Touch-LCD-4.3
 
-NEW - I've added an example using Arduino_GFX.
+BEWARE - These examples use LVGL v8.x and Arduino esp32 v2.x.
+Neither LVGL v9.x nor Arduino esp32 v3.x will work (yet).
+However I'm swithhing to Lovyan GFX which does work for Arduino v3.
+Next I'll switch to LVGL v9
 
-TODO - Add an example using Arduino_GFX and LVGL.
+NEW - I've added an example using Arduino_GFX on ots own, and another plus LVGL.
 
 Thanks to VollWombat for all his help.
 
 The WaveShare demo software download contains an Arduino branch with code for each of the examples. The most useful is lvg_porting.
 https://www.waveshare.com/wiki/ESP32-S3-Touch-LCD-4.3#Demo
+They use a customised version of TFT_eSPI which I have avoided. You'll still need the Expander library.
 
 This repository will hopefully grow as I find out how to use all of the board's features.
 
