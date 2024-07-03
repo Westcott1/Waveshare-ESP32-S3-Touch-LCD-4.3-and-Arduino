@@ -8,7 +8,7 @@ However I'm switching to Lovyan_GFX (from TFT_eSPI)  which does work for Arduino
 Next I'll switch to LVGL v9
 New examples will be posted soon.
 
-NEW - I've added an example using Arduino_GFX on ots own, and another plus LVGL.
+NEW - I've added an example using Arduino_GFX on its own, and another plus LVGL.
 
 Thanks to VollWombat for all his help.
 
