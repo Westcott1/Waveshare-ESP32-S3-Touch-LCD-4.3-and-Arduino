@@ -61,11 +61,11 @@ Arduino_ESP32RGBPanel *rgbpanel = new Arduino_ESP32RGBPanel(
 );
 
 Arduino_RGB_Display *gfx = new Arduino_RGB_Display(
-    800 /* width */,
-    480 /* height */, 
-    rgbpanel, 
-    0 /* rotation */, 
-    true /* auto_flush */
+  800 /* width */,
+  480 /* height */, 
+  rgbpanel, 
+  0 /* rotation */, 
+  true /* auto_flush */
 );
 ```
 Much to my surprise the example code ran!
