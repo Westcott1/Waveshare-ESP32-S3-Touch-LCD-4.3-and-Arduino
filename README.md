@@ -33,10 +33,10 @@ Waveshare have thoughtfully given the GPIO pin mapping for their panel, so I put
 //define GFX_BL 2
 
 Arduino_ESP32RGBPanel *rgbpanel = new Arduino_ESP32RGBPanel(
-    5 /* DE */,
-    3 /* VSYNC */,
-    46 /* HSYNC */,
-    7 /* PCLK */,
+  5 /* DE */,
+  3 /* VSYNC */,
+  46 /* HSYNC */,
+  7 /* PCLK */,
 
   1 /* R0 */,
   2 /* R1 */,
@@ -57,17 +57,17 @@ Arduino_ESP32RGBPanel *rgbpanel = new Arduino_ESP32RGBPanel(
   17 /* B3 */,
   10 /* B4 */,
 
-    0 /* hsync_polarity */, 40 /* hsync_front_porch */, 48 /* hsync_pulse_width */, 88 /* hsync_back_porch */,
-    0 /* vsync_polarity */, 13 /* vsync_front_porch */, 3 /* vsync_pulse_width */, 32 /* vsync_back_porch */,
-    1 /* pclk_active_neg */, 16000000 /* prefer_speed */
+  0 /* hsync_polarity */, 40 /* hsync_front_porch */, 48 /* hsync_pulse_width */, 88 /* hsync_back_porch */,
+  0 /* vsync_polarity */, 13 /* vsync_front_porch */, 3 /* vsync_pulse_width */, 32 /* vsync_back_porch */,
+  1 /* pclk_active_neg */, 16000000 /* prefer_speed */
 );
 
 Arduino_RGB_Display *gfx = new Arduino_RGB_Display(
-    800 /* width */,
-    480 /* height */, 
-    rgbpanel, 
-    0 /* rotation */, 
-    true /* auto_flush */
+  800 /* width */,
+  480 /* height */, 
+  rgbpanel, 
+  0 /* rotation */, 
+  true /* auto_flush */
 );
 ```
 Much to my surprise the example code ran!
