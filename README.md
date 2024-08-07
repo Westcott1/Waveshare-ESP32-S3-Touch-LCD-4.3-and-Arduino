@@ -77,5 +77,5 @@ Touch is controlled by a GT911, and works well with the bb_captouch library.
 SDA=8, SCL=9, IRQ=4
 
 The expansion pin chip can be accessed with ESP_IOExpander_Library.h.
-Part of the  s3-4.3-libraries download from the Wageshare wiki page
+Part of the  s3-4.3-libraries download from the Waveshare wiki page
 https://files.waveshare.com/wiki/ESP32-S3-Touch-LCD-4.3/Esp32-s3-touch-lcd-lib.zip 
