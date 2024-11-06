@@ -22,6 +22,8 @@ void LgfxInit() {
 
   gfx.setTextColor(TFT_GREEN);
   gfx.setTextSize(3);
+  gfx.setCursor(250, 200);
+  gfx.println("LovyanGFX");
 }
 
 // Only if GFX does the touch handling
